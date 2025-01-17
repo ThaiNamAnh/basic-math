@@ -48,3 +48,8 @@ export default tseslint.config({
   },
 })
 ```
+
+
+# Order
+- commit, push change to remote
+- npm run deploy 
