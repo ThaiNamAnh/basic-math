@@ -4,6 +4,7 @@ import App from './App.tsx'
 import { BrowserRouter, Routes, Route } from "react-router";
 import PhepCong from './view/PhepCong.tsx';
 import PhepNhan from './view/PhepNhan.tsx';
+import TextToSpeech from './view/TextToSpeech.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
@@ -11,6 +12,7 @@ createRoot(document.getElementById('root')!).render(
       <Route path="basic-math" element={<App />} />
       <Route path="basic-math/phep-cong" element={<PhepCong />} />
       <Route path="basic-math/phep-nhan" element={<PhepNhan />} />
+      <Route path="basic-math/text-to-speech" element={<TextToSpeech />} />
     </Routes>
   </BrowserRouter>
 )
