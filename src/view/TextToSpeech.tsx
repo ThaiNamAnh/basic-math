@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router";
 
 const TextToSpeech = () => {
   const navigate = useNavigate();
 
   const [text, setText] = useState("");
-  const [voices, setVoices] = useState([]);
+  const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [selectedVoice, setSelectedVoice] = useState("");
 
   useEffect(() => {
