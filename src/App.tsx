@@ -20,6 +20,7 @@ function App() {
       <button onClick={() => navigate('/basic-math/phep-cong')}>Phep Cong</button>
       <button onClick={() => navigate('/basic-math/phep-nhan')}>Phep Nhan</button>
       <button onClick={() => navigate('/basic-math/text-to-speech')}>Text To Speech</button>
+      <button onClick={() => navigate('/basic-math/video-youtube')}>Video Youtube</button>
     </>
   )
 }
